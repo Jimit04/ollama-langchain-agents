@@ -9,7 +9,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_ollama import OllamaLLM
 
 # Load Model
-llm = OllamaLLM(model="phi")  # Change to "llama3" or other supported model
+llm = OllamaLLM(model="gemma3:4b")  # Change to "llama3" or other supported model
 
 # Initialize memory
 chat_history = ChatMessageHistory()

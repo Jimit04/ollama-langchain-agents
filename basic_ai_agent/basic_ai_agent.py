@@ -1,7 +1,7 @@
 from langchain_ollama import OllamaLLM
 
 # Load AI model from Ollama
-llm = OllamaLLM(model="phi")
+llm = OllamaLLM(model="gemma3:4b")
 
 print("Welcome to your AI Agent! Ask me anything.")
 

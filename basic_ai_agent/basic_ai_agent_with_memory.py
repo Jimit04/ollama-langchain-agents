@@ -3,7 +3,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_ollama import OllamaLLM
 
 # Load AI Model
-llm = OllamaLLM(model="phi")
+llm = OllamaLLM(model="gemma3:4b")
 
 # Initialize chat message history
 chat_history = ChatMessageHistory()

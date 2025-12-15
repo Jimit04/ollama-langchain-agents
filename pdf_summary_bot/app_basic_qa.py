@@ -9,7 +9,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 
 # Load AI Model
-llm = OllamaLLM(model="phi")  # Can also use "llama3" etc.
+llm = OllamaLLM(model="gemma3:4b")  # Can also use "llama3" etc.
 
 # Load Hugging Face Embeddings
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")

@@ -4,7 +4,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_ollama import OllamaLLM
 
 # Load AI Model
-llm = OllamaLLM(model="phi")  # Change to "llama3" or another Ollama model
+llm = OllamaLLM(model="gemma3:4b")  # Change to "llama3" or another Ollama model
 
 # Initialize Memory
 if "chat_history" not in st.session_state:
